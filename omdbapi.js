@@ -1,3 +1,8 @@
+/*
+   omdbapi.js v0.0.1
+   omdbapi angular service
+   Written by Tyson Bailey
+*/
   angular.module('video', []).factory('$video', ['$http',
       function($http) {
           return {
